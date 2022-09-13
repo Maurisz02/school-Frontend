@@ -6,6 +6,9 @@
 
 body{
     background-color: beige;
+    max-width: 1023px;
+    justify-content: center;
+    margin: auto;
 }
 
 
@@ -14,7 +17,9 @@ nav{
 }
 
 .nav-item{
-    margin-right: 50px;
+    margin-left: 180px;
+    text-align: center;
+    justify-content: center;
 }
 
 #bemutatkozas{
@@ -26,6 +31,35 @@ nav{
 
 .text{
     margin: 50px 50px 10px 50px;
-    text-align: center;
+    text-align: justify;
     border-style: double;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.kepek{
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+}
+
+.fagyizo{
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+}
+.ul{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+h3{
+    color: azure;
+    text-align: center;
 }
